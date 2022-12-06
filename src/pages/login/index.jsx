@@ -55,8 +55,8 @@ const Login = () => {
                     <Button title="Entrar" variant="secondary" type="submit"/>
                 </form>
                 <Row>
-                    <EsqueciText>Esqueci minha senha</EsqueciText>
-                    <CriarText>Criar Conta</CriarText>
+                    <EsqueciText href="">Esqueci minha senha</EsqueciText>
+                    <CriarText href="/cadastro">Criar Conta</CriarText>
                 </Row>
                 </Wrapper>
             </Column>

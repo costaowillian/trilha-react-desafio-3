@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components"
 
 export const Container = styled.main`
     width: 100%;
@@ -12,21 +12,25 @@ export const Container = styled.main`
     aling-itens: center;
 `
 
-export const Wrapper = styled.div`
-    max-width: 300px;
-    margin-left: 200px;
+export const Maintitle = styled.h3`
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+
+    color: #FFFFFF;
+    width: 40%;
+`
+
+export const Quadro = styled.div`
+    width: 300px;
+    margin-right: 100px;  
 `
 
 export const Column = styled.div`
     flex: 1;
-`
-
-export const Row = styled.div`
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 20px;
+    
 `
 
 export const Title = styled.h2`
@@ -41,16 +45,7 @@ export const Title = styled.h2`
     color: #FFFFFF;
 `
 
-export const TitleLogin = styled.p`
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 44px;
-    margin-bottom: 8px;
-`
-
-export const SubtitleLogin = styled.p`
+export const Subtitle = styled.p`
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -59,9 +54,25 @@ export const SubtitleLogin = styled.p`
     margin-bottom: 35px;
 `
 
+export const Text = styled.p`
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
 
-export const EsqueciText  = styled.a`
-    text-decoration: none;
+    color: #FFFFFF;
+
+    margin-top: 12px;
+`
+
+export const Row = styled.div`
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+`
+
+export const Contatext  = styled.p`
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -71,7 +82,7 @@ export const EsqueciText  = styled.a`
     color: #E5E044;
 ` 
 
-export const CriarText =  styled.a`
+export const Logintext =  styled.a`
     text-decoration: none;
     font-family: 'Open Sans';
     font-style: normal;
